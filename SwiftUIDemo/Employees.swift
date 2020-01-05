@@ -20,11 +20,13 @@ struct Employees:Identifiable {
 }
 
 #if DEBUG
-let employeesList = [Employees(eName:"仇俊",eNumber:123,eState:true),
-                     Employees(eName:"启超",eNumber:124,eState:true),
-                     Employees(eName:"李祺",eNumber:125,eState:false),
-                     Employees(eName:"杨博",eNumber:126,eState:true),
-                     Employees(eName:"Jakic",eNumber:127,eState:true),
-                     Employees(eName:"谢光",eNumber:128,eState:true)]
+let employeesList = [
+    Employees(eName:"仇俊",eNumber:123,eState:true),
+    Employees(eName:"启超",eNumber:124,eState:true),
+    Employees(eName:"李祺",eNumber:125,eState:false),
+    Employees(eName:"杨博",eNumber:126,eState:true),
+    Employees(eName:"Jakic",eNumber:127,eState:true),
+    Employees(eName:"谢光",eNumber:128,eState:true)
+]
 
 #endif
