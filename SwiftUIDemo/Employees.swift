@@ -12,8 +12,7 @@ import SwiftUI
 
 
 struct Employees:Identifiable {
-        var id = UUID()
-
+    var id = UUID()
     var eName:String
     var eNumber:Int
     var eState:Bool

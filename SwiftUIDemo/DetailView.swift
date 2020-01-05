@@ -8,23 +8,22 @@
 
 import SwiftUI
 
-struct HaHaView: View {
+struct DetailView: View {
     
     let newString:String?
     
-    init(newString:String) {
-        self.newString = newString
-    }
-    
-    
-    
     var body: some View {
-        Text(newString!)
+        NavigationView{
+            ScrollView{
+                Text(newString!)
+            }.navigationBarTitle(Text(newString!))
+        }
+        
     }
 }
 
-struct HaHaView_Previews: PreviewProvider {
+struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        HaHaView(newString: "here")
+        DetailView(newString: "here")
     }
 }
